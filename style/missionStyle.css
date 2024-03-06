@@ -1,0 +1,45 @@
+.mission {
+    max-width: 1840px;
+    width: 100%;
+    
+    display: flex;
+
+    position: relative;
+
+    margin: 0px auto 100px;
+    
+}
+
+.mission-img {
+    max-width: 450px;
+    max-height: 720px;  
+}
+
+.mission-container {
+    max-width: 52.5rem;
+    margin-left: 40px;
+    
+    z-index: 2;
+}
+
+.mission-group-199 {
+    position: absolute;
+    z-index: 1;
+
+    right: -330px;
+    top: -200px;
+}
+
+@media (max-width: 1250px ) {
+
+    .mission-img {
+        display: none;
+    }
+
+    .mission-container {
+        max-width: 100%;
+        margin-left: 0px;
+        
+        z-index: 2;
+    }
+}

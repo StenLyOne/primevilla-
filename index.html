@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/defaultStyle.css">
+    <link rel="stylesheet" href="style/generaltStyle.css">
+    <link rel="stylesheet" href="style/mainStyle.css">
+    <link rel="stylesheet" href="style/natureStyle.css">
+    <link rel="stylesheet" href="style/doesStyle.css">
+    <link rel="stylesheet" href="style/missionStyle.css">
+    <link rel="stylesheet" href="style/teamStyle.css">
+    <link rel="stylesheet" href="style/contactStyle.css">
+    <link rel="stylesheet" href="style/aos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <div class="wraper">
+        <main style="background: url(/image/main-2.png);" class="main main-activ" id="#main">
+            <header>
+                <div style="display: flex; z-index: 3;">
+                    <img src="image/PRIME.svg" alt="">
+                    <img src="image/Villa.svg" alt="">
+                </div>
+                <div class="header-link">
+                    <a href="#main"><p style="margin-right: 40px; color: rgba(213, 255, 64, 1);">Main</p></a>
+                    <a href="#nature"><p style="margin-right: 40px;">About as</p></a>
+                    <a href="#mission"><p style="margin-right: 40px;">Mission</p></a>
+                    <a href="#team"><p style="margin-right: 40px;">Team</p></a>
+                    <a href="#contact"><p >Contact us</p></a>
+                </div>
+                
+                <div id="burgermenu-activ" class="burgermenu-activ">
+                    <ul>
+                        <li>
+                            <a href="#main">
+                                <h3>
+                                    Main
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#nature">
+                                <h3>
+                                    About as
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mission">
+                                <h3>
+                                    Mission
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#team">
+                                <h3>
+                                    Team
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                <h3>
+                                    Contact us
+                                </h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-btn-container">
+                    <div class="menu-btn"></div>
+                    <div style="margin: 5px 0 5px;" class="menu-btn"></div>
+                    <div class="menu-btn"></div>
+                </div>
+            </header>
+            <div class="main-container">
+                <div class="main-left">
+                    <h1 class="main-h">Modern design and architecture for our <span>future</span></h1>
+                    <div class="main-p-mob">
+                        
+                    </div>
+                    <p class="main-p-mob-opacity">"Architecture is more than mere building; it is a creation that marries art and functionality. Forms and spaces find meaning in light, crafting a harmony where people can live, work, and delight."</p>
+                    <div class="main-p-mob-name">
+                        
+                    </div>
+                    <p  class="main-name-mob-opacity">Le Corbusier</p>
+                    <a href="#contact">
+                        <button class="btn-main" >Contact us</button>
+                    </a>
+                </div>
+                <div class="circle-container">
+                    <div class="circle activ-circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="main-reght">
+                    <div class="block-one">
+                        <div>
+                            <div class="block-one-text-name" style="margin-bottom: 20px;">
+
+                            </div>
+                            <!-- <h3 style="margin-bottom: 20px;">Le Corbusier</h3> -->
+                            <div class="block-one-text-">
+                                    
+                            </div>
+                        </div>
+                        <div class="main-block-img">
+                            <img src="image/block_two_1.svg" alt="">
+                            <img src="image/block_two_2.svg" alt="">
+                            <img src="image/block_two_3.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="block-two" onclick="handleButtonClick()">
+                        <div style="display: flex; justify-content: space-between;">
+                            <h3 style="font-weight: 400;">.01 / .03 </h3>
+                            <img class="img-arow" style="margin-top: 70px;" src="image/arrow.svg" alt="">
+                        </div>
+                        <div class="block-two-mark">
+                            <div class="block-two-mark-"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <main style="background: url(/image/main-1.png); 
+        background-position: 55% 100%;" class="main" id="#main">
+            <header>
+                <div style="display: flex; z-index: 3;">
+                    <img src="image/PRIME.svg" alt="">
+                    <img src="image/Villa.svg" alt="">
+                </div>
+                <div class="header-link">
+                    <a href="#main"><p style="margin-right: 40px; color: rgba(213, 255, 64, 1);">Main</p></a>
+                    <a href="#nature"><p style="margin-right: 40px;">About as</p></a>
+                    <a href="#mission"><p style="margin-right: 40px;">Mission</p></a>
+                    <a href="#team"><p style="margin-right: 40px;">Team</p></a>
+                    <a href="#contact"><p >Contact us</p></a>
+                </div>
+                
+                <div id="burgermenu-activ" class="burgermenu-activ">
+                    <ul>
+                        <li>
+                            <a href="#main">
+                                <h3>
+                                    Main
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#nature">
+                                <h3>
+                                    About as
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mission">
+                                <h3>
+                                    Mission
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#team">
+                                <h3>
+                                    Team
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                <h3>
+                                    Contact us
+                                </h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-btn-container">
+                    <div class="menu-btn"></div>
+                    <div style="margin: 5px 0 5px;" class="menu-btn"></div>
+                    <div class="menu-btn"></div>
+                </div>
+            </header>
+            <div class="main-container">
+                <div class="main-left">
+                    <h1 class="main-h">Modern design and architecture for our <span>future</span></h1>
+                    <p class="main-p-mob- italic">
+                        "Creating design is drawing inspiration from the world around. To make something exceptional, your attitude must be passionate. It's a blend of technical mastery and creative fervor that makes design a true art form."
+                    </p>
+                    <p class="main-p-mob-" style="margin: 20px 0 40px;" class="italic">
+                        Alexander McQueen
+                    </p>
+                    <a href="#contact">
+                        <button >Contact us</button>
+                    </a>
+                    <div class="circle-container">
+                        <div class="circle"></div>
+                        <div class="circle activ-circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="main-reght">
+                    <div class="block-one block-one-2 ">
+                        <div>
+                            <h3 style="margin-bottom: 20px;">Alexander McQueen</h3>
+                            
+                            <p class="italic">
+                                "Creating design is drawing inspiration from the world around. To make something exceptional, your attitude must be passionate. It's a blend of technical mastery and creative fervor that makes design a true art form."
+                            </p>
+                        </div>
+                        <div class="main-block-img">
+                            <img src="image/block_one_1.svg" alt="">
+                            <img src="image/block_one_2.svg" alt="">
+                            <img src="image/block_two_3.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="block-two block-two-2" onclick="handleButtonClick()">
+                        <div style="display: flex; justify-content: space-between;">
+                            <h3 style="font-weight: 400;">.02 / .03 </h3>
+                            <img style="margin-top: 70px;" src="image/arrow.svg" alt="">
+                        </div>
+                        <div class="block-two-mark" >
+                            <div class="block-two-mark- block-two-mark-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <main style="background: url(/image/main-3.png);
+        background-position: 50% 40%;" class="main" id="#main">
+            <header>
+                <div style="display: flex; z-index: 3;">
+                    <img src="image/PRIME.svg" alt="">
+                    <img src="image/Villa.svg" alt="">
+                </div>
+                <div class="header-link">
+                    <a href="#main"><p style="margin-right: 40px; color: rgba(213, 255, 64, 1);">Main</p></a>
+                    <a href="#nature"><p style="margin-right: 40px;">About as</p></a>
+                    <a href="#mission"><p style="margin-right: 40px;">Mission</p></a>
+                    <a href="#team"><p style="margin-right: 40px;">Team</p></a>
+                    <a href="#contact"><p >Contact us</p></a>
+                </div>
+                
+                <div id="burgermenu-activ" class="burgermenu-activ">
+                    <ul>
+                        <li>
+                            <a href="#main">
+                                <h3>
+                                    Main
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#nature">
+                                <h3>
+                                    About as
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mission">
+                                <h3>
+                                    Mission
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#team">
+                                <h3>
+                                    Team
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                <h3>
+                                    Contact us
+                                </h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-btn-container">
+                    <div class="menu-btn"></div>
+                    <div style="margin: 5px 0 5px;" class="menu-btn"></div>
+                    <div class="menu-btn"></div>
+                </div>
+            </header>
+            <div class="main-container">
+                <div class="main-left">
+                    <h1 class="main-h">Modern design and architecture for our <span>future</span></h1>
+                    <p class="main-p-mob- italic">
+                        "Design is more than visual aesthetics. It is the integration of sensuality, emotions, and convenience. Design comes alive when it is not just seen but felt. It's the embodiment of an idea, seeking perfection in every detail and paying attention to the soul of the space."
+                    <p class="main-p-mob-" style="margin: 20px 0 40px;" class="italic">
+                        Eli Schifferin
+                    </p>
+                    <a href="#contact">
+                        <button >Contact us</button>
+                    </a>
+                    <div class="circle-container">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle activ-circle"></div>
+                    </div>
+                </div>
+                <div class="main-reght">
+                    <div class="block-one block-one-3 ">
+                        <div>
+                            <h3 style="margin-bottom: 20px;">Eli Schifferin</h3>
+                            <p class="italic">
+                                "Design is more than visual aesthetics. It is the integration of sensuality, emotions, and convenience. Design comes alive when it is not just seen but felt. It's the embodiment of an idea, seeking perfection in every detail and paying attention to the soul of the space."
+                            </p>
+                        </div>
+                        <div class="main-block-img">
+                            <img src="image/block_three_1.png" alt="">
+                            <img src="image/block_three_2.png" alt="">
+                            <img src="image/block_three_3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="block-two block-two-3" onclick="handleButtonClick()">
+                        <div style="display: flex; justify-content: space-between;">
+                            <h3 style="font-weight: 400;">.03 / .03 </h3>
+                            <img style="margin-top: 70px;" src="image/arrow.svg" alt="">
+                        </div>
+                        <div class="block-two-mark">
+                            <div class="block-two-mark- block-two-mark-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="nature" id="nature">
+            <h2 data-aos="zoom-in-down">We are concerned about the well-being of <span>nature in our future</span></h2>
+            <div class="nature-img-container">
+                <div class="nature-img-container-1">
+                    <div data-aos="zoom-in-right" class="nature-1">
+                        <img class="nature-1-1" style="border-radius: 20px;" src="image/nature-1.png" alt="">
+                        <img class="nature-1-2" src="image/nature-1-1.png" alt="">
+                    </div>
+                    <div data-aos="zoom-in-right" class="nature-2">
+                        <img class="nature-1-1" style="border-radius: 20px;" src="image/nature-2.png" alt="">
+                        <img class="nature-1-2" src="image/nature-1-2.png" alt="">
+                    </div>
+                </div>
+                <h2 data-aos="zoom-out-up" class="nature-h">and <br> want <br>  
+                    to preserve it with
+                    <span>
+                        you
+                    </span>
+                </h2>
+                <p data-aos="zoom-in" class="nature-p">
+                    Our team is dedicated to creating innovative architectural and design solutions that are harmonious with nature. Committed to a sustainable lifestyle, we cherish the future by embodying these values in every structure, preserving the essence of the environment       
+                </p>
+                <div class="nature-img-container-2">
+                    <div data-aos="zoom-in-left" class="nature-3">
+                        <img class="nature-1-1" style="border-radius: 20px;" src="image/nature-3.png" alt="">
+                        <img class="nature-1-2" src="image/nature-1-3.png" alt="">
+                    </div>
+                    <div data-aos="zoom-in-left" class="nature-4">
+                        <img class="nature-1-1" style="border-radius: 20px;" src="image/nature-4.png" alt="">
+                        <img class="nature-1-2" src="image/nature-1-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <p data-aos="zoom-in-up" class="nature-p-mob">
+                Our team is dedicated to creating innovative architectural and design solutions that are harmonious with nature. Committed to a sustainable lifestyle, we cherish the future by embodying these values in every structure, preserving the essence of the environment       
+            </p>
+            <div class="nature-bg">
+
+            </div>
+        </div>
+        <div class="does1 does-hidden" id="does">
+            <div data-aos="zoom-in-left" class="does-left">
+                <div>
+                    <h2 class="does-h2">What our company does</h2>  
+                    
+                    <h3 class="does-h3"><span>.01</span> / Home Design<br> and Architecture</h3>
+                </div>
+                <div class="does-arrow does-arrow-pc">
+                    <img onclick="does01()" style="margin-right: 40px;  transform: rotate(180deg); cursor: pointer;" src="image/arrow.svg" alt="">
+                    <!-- <img src="image/arrow.svg" alt=""> -->
+                </div>
+            </div>
+            <div  data-aos="zoom-in-right"  class="does-right">
+                <div class="does-right-containder">
+                    <img class="does-img" src="image/does-01-1.png" alt="">
+                    <p class="does-p">
+                        Elevating the concept of home design and architecture, our company is dedicated to turning aspirations into reality. Our seasoned architects and designers collaborate closely with clients, embracing their visions to create residences that are not just structures but reflections of individuality. From innovative layouts to thoughtful details, we meticulously craft homes that resonate with comfort, elegance, and a timeless aesthetic
+                    </p>
+                </div>
+                <img class="does-img-two" src="image/does-01-2.png" alt="">
+            </div>
+            <div data-aos="zoom-out-up" onclick="does01()" style="position: relative; cursor: pointer;" class="does-arrow does-arrow-mob">
+                <img class="arrow-mob-tip" src="image/arrow-mob.svg" alt="">
+                <div class="arrow-mob"></div>
+            </div>
+        </div>
+        <div class="does2">
+            <div data-aos="zoom-out" style="max-width: 1000px; width: 100%;">
+                <img style="max-width: 1000px; width: 100%;" src="image/Individualized.png" alt="">
+            </div>
+            <div data-aos="zoom-out" class="does2-container">
+                <div class="does2-right">
+                    <h3 style="margin-left: -20px;"><span>.01</span> / Individualized Design for Every Owner</h3>
+                    <ul>
+                        <li>
+                            We believe in the uniqueness of each owner and their project
+                        </li>
+                        <li>
+                            Our seasoned architects and designers closely collaborate with each owner to fully understand their needs and preferences
+                        </li>
+                        <li>
+                            Our company is dedicated to creating homes and spaces that not only meet high standards of design and architecture but also serve as unique reflections of each owner's individuality
+                        </li>
+                        <li>
+                            We prioritize personalized attention to detail in every aspect of the design process
+                        </li>
+                        <li>
+                            Our goal is to exceed the expectations of each owner by delivering tailor-made solutions that resonate with their vision and lifestyle
+                        </li>
+                    </ul>
+                </div>
+                <div data-aos="zoom-out" class="does-arrow does-arrow-pc-1">
+                    <img onclick="does02()" style=" cursor: pointer" src="image/arrow.svg" alt="">
+                    <!-- <img src="image/arrow.svg" alt=""> -->
+                </div>
+                <div data-aos="zoom-out" onclick="does02()" style="position: relative; cursor: pointer; " class="does-arrow does-arrow-mob">
+                    <img class="arrow-mob-tip-1" style="  transform: rotate(180deg);" src="image/arrow-mob.svg" alt="">
+                    <div class="arrow-mob"></div>
+                </div>
+            </div>    
+        </div>
+        <div class="does1 does-hidden" id="does"  style="background-color: #879691;">
+                <div  data-aos="zoom-in-left" class="does-left">
+                    <div>
+                        <h2 class="does-h2">What our company does</h2>  
+                        
+                        <h3 class="does-h3"><span>.02</span> / Creating<br>Sustainable Spaces</h3>
+                    </div>
+                    <div class="does-arrow does-arrow-pc">
+                        <img onclick="does03()" style="margin-right: 40px;  transform: rotate(180deg); cursor: pointer "  src="image/arrow.svg" alt="">
+                        <!-- <img src="image/arrow.svg" alt=""> -->
+                    </div>
+                </div>
+                <div data-aos="zoom-in-right" class="does-right">
+                    <div class="does-right-containder">
+                        <img class="does-img" src="image/does-02-1.png" alt="">
+                        <p class="does-p">
+                            Sustainability is not just a feature; it's the core of our design philosophy. Our commitment to environmental responsibility extends beyond incorporating eco-friendly materials; it permeates every aspect of our projects, influencing the design of spaces that embrace renewable energy and a harmonious relationship with nature. Through sustainable innovation, we aspire to contribute to a future where every space is a beacon of ecological consciousness.
+                        </p>
+                    </div>
+                    <img class="does-img-two" src="image/does-02-2.png" alt="">
+                </div>
+                <div data-aos="zoom-out-up" onclick="does03()" style="position: relative; cursor: pointer;" class="does-arrow does-arrow-mob">
+                    <img class="arrow-mob-tip" src="image/arrow-mob.svg" alt="">
+                    <div class="arrow-mob"></div>
+                </div>
+        </div>   
+        <div class="does2"  style="background-color: #879691;">
+            <div style="max-width: 1000px; width: 100%;">
+                <img style="max-width: 1000px; width: 100%;" src="image/Spaces.png" alt="">
+            </div>
+            <div data-aos="zoom-out" class="does2-container">
+                <div data-aos="zoom-out" class="does2-right">
+                    <h3 style="margin-left: -20px;"><span>.02</span> / Preservation of the Environment at the Core of Design</h3>
+                    <ul>
+                        <li>
+                            Sustainability is not just a feature of our projects; it is the essence of our design philosophy
+                        </li>
+                        <li>
+                            We strive to ensure that our projects are environmentally responsible in all aspects, from material selection to project execution
+                        </li>
+                        <li>
+                            Our company is dedicated to creating spaces that promote sustainable resource usage and harmonious relationships with nature
+                        </li>
+                        <li>
+                            We actively incorporate innovative approaches to sustainable design to contribute to a future where every space is a beacon of ecological consciousness
+                        </li>
+                        <li>
+                            Our goal is to create projects that are not only visually stunning but also contribute to improving the environment and quality of life
+                        </li>
+                    </ul>
+                </div>
+                <div data-aos="zoom-out" class="does-arrow does-arrow-pc-1" >
+                    <img onclick="does04()" style=" cursor: pointer" src="image/arrow.svg" alt="">
+                    <!-- <img src="image/arrow.svg" alt=""> -->
+                </div>
+                <div data-aos="zoom-out" onclick="does04()" style="position: relative; cursor: pointer; " class="does-arrow does-arrow-mob">
+                    <img class="arrow-mob-tip-1" style="  transform: rotate(180deg);" src="image/arrow-mob.svg" alt="">
+                    <div class="arrow-mob"></div>
+                </div>
+            </div>    
+        </div>
+        <div class="does1 does-hidden" id="does" style="background-color: #826950;">
+                <div  data-aos="zoom-in-left" class="does-left">
+                    <div>
+                        <h2 class="does-h2">What our company does</h2>  
+                        
+                        <h3 class="does-h3"><span>.03</span> / Landscape Design<br>and Streetscapes</h3>
+                    </div>
+                    <div class="does-arrow does-arrow-pc">
+                        <img onclick="does05()" style="margin-right: 40px;  transform: rotate(180deg); cursor: pointer"  src="image/arrow.svg" alt="">
+                        <!-- <img src="image/arrow.svg" alt=""> -->
+                    </div>
+                </div>
+                <div data-aos="zoom-in-right" class="does-right">
+                    <div class="does-right-containder">
+                        <img class="does-img" src="image/does-03-1.png" alt="">
+                        <p class="does-p">
+                            Transforming outdoor spaces into immersive experiences is our forte. In the realm of landscape design and streetscapes, we redefine conventional notions. Our expert team envisions environments that seamlessly integrate with the natural surroundings, fostering a sense of connection and tranquility. Be it private gardens or urban thoroughfares, we sculpt landscapes that transcend the ordinary, creating picturesque settings for everyday life.
+                        </p>
+                    </div>
+                    <img class="does-img-two" src="image/does-03-2.png" alt="">
+                </div>
+                <div data-aos="zoom-out-up" onclick="does05()" style="position: relative; cursor: pointer;" class="does-arrow does-arrow-mob">
+                    <img class="arrow-mob-tip" src="image/arrow-mob.svg" alt="">
+                    <div class="arrow-mob"></div>
+                </div>
+        </div>
+        <div class="does2" style="background-color: #826950;"> 
+            <div data-aos="zoom-out" style="max-width: 1000px; width: 100%;">
+                <img src="image/Landscape.png" alt="">
+            </div>
+            <div data-aos="zoom-out" class="does2-container">
+                <div class="does2-right">
+                    <h3 style="margin-left: -20px;"><span>.03</span> / Transforming Open Spaces into Captivating Experiences</h3>
+                    <ul>
+                        <li>
+                            Transforming outdoor spaces into immersive experiences is our forte
+                        </li>
+                        <li>
+                            In the realm of landscape design and streetscapes, we redefine conventional notions
+                        </li>
+                        <li>
+                            Our expert team envisions environments that seamlessly integrate with the natural surroundings, fostering a sense of connection and tranquility
+                        </li>
+                        <li>
+                            Be it private gardens or urban thoroughfares, we sculpt landscapes that transcend the ordinary, creating picturesque settings for everyday life
+                        </li>
+                        <li>
+                            We strive to make each space we create a source of inspiration and unique experiences for our owners
+                        </li>
+                    </ul>
+                </div>
+                <div data-aos="zoom-out" class="does-arrow does-arrow-pc-1" >
+                    <img onclick="does06()" style="cursor: pointer" src="image/arrow.svg" alt="">
+                    <!-- <img src="image/arrow.svg" alt=""> -->
+                </div>
+                <div data-aos="zoom-out" onclick="does06()" style="position: relative; cursor: pointer; " class="does-arrow does-arrow-mob">
+                    <img class="arrow-mob-tip-1" style="  transform: rotate(180deg);" src="image/arrow-mob.svg" alt="">
+                    <div class="arrow-mob"></div>
+                </div>
+            </div>    
+        </div>
+        <div class="mission" id="mission">
+            <img  data-aos="fade-right" data-aos-delay="5000" class="mission-img"  src="image/mission.png" alt="">
+            <div data-aos="fade-left" data-aos-delay="5000" class="mission-container">
+                <h2 style="margin-bottom: 40px;">Our <span>missions</span></h2>
+                <p>
+                    At the core of our company's mission is the commitment to redefine the landscape of design and architecture through innovation and sustainability. We aspire to create living spaces that transcend mere functionality, becoming a tangible expression of individual dreams and aspirations. Our seasoned architects and designers form collaborative partnerships with clients, weaving their unique visions into the very fabric of each residence. We don't just construct buildings; we curate environments that echo the essence of individuality.
+                </p>
+                <p style="margin: 30px 0px 30px;">
+                    From groundbreaking layouts to intricate details, we meticulously craft homes that resonate with a sense of comfort, timeless elegance, and an enduring aesthetic. Our mission extends beyond architectural mastery; it encompasses a dedication to environmental responsibility. We integrate eco-friendly practices into every facet of our work, contributing to a greener and more sustainable future.
+                </p>
+                <p>
+                    Our mission is to leave an indelible mark on the industry, setting new standards that marry style and substance. Through the artistry of design and the embrace of cutting-edge technologies, we seek to make a lasting impact, creating spaces that tell stories, evoke emotions, and stand as testaments to our unwavering commitment to excellence and environmental stewardship. In every project, we embark on a journey to transform aspirations into reality, shaping spaces that not only reflect the present but also inspire the possibilities of the future.
+                </p>
+            </div>
+            <!-- <img class="mission-group-199" src="image/Group 199.svg" alt=""> -->
+        </div>  
+        <div class="team" id="team">
+            <h2 data-aos="zoom-out-down" class="team-h" style="margin-bottom: 40px;">Our team</h2>
+            <div class="card-container">
+                <div data-aos="zoom-out-right" class="card-container-1">
+                    <div  class="card">
+                        <h3 style="color: rgba(213, 255, 64, 1); margin-bottom: 10px;">Blaze Hudson</h3>
+                        <p>
+                            Chief Executive Officer (CEO)
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 style="color: rgba(213, 255, 64, 1); margin-bottom: 10px;">Aria Luna</h3>
+                        <p >
+                            Designer
+                        </p>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-left" class="card-container-2">
+                    <div class="card">
+                        <h3 style="color: rgba(213, 255, 64, 1); margin-bottom: 10px;">Taylor Ryan</h3>
+                        <p>
+                            Architect
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 style="color: rgba(213, 255, 64, 1); margin-bottom: 10px;">Pol Moor</h3>
+                        <p>
+                            Architect
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style=" background-image: url(/image/contact.png);" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" class="contact" id="contact">
+            <h2 style="margin-bottom: 40px;">Contact us</h2>
+            <div class="input-group">
+                <input id="name"  type="text" required>
+                <label id="labelName" for="">Name</label>
+            </div>
+            <div class="input-group">
+                <input id="email" type="text" required>
+                <label id="labelEmail" for="">Email</label>
+            </div>
+            <div class="input-group">
+                <input type="tel" id="phone"  required>
+                <label id="labelPhone" for="">Phone namber</label>
+            </div>
+            <button id="btn" onclick="send()" style="margin-top: 40px; margin-bottom: 140px; max-width: 400px; width: 100%;">Send</button>
+            <footer style="display: flex; background-color: black;">
+                <div style="display: flex;">
+                    <img src="image/PRIME.svg" alt="">
+                    <img src="image/Villa.svg" alt="">
+                </div>
+                <!-- <div style="display: flex;">
+                    <p style="margin-right: 40px;">Main</p>
+                    <p style="margin-right: 40px;">About as</p>
+                    <p style="margin-right: 40px;">Mission</p>
+                    <p style="margin-right: 40px;">Team</p>
+                    <p>Contact us</p>
+                </div> -->
+            </footer>
+            <div class="success">
+                <h2 style="margin-bottom: 30px;color: #D5FF40;">Success!</h2>
+                <h3>We will contact <br>you shortly!</h3>
+
+                <button onclick="sendClosed()" style="max-width: 200px; margin-top: 30px;">ok!</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="js/js.js" defer></script>
+</body>
+</html>

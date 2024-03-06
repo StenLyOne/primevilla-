@@ -1,0 +1,435 @@
+@keyframes natureAn {
+    0% {  opacity: 0; transform: translateX(0);}
+    100% { opacity: 1; transform: translateX(0);}
+}
+
+@keyframes natureAni {
+    0% { opacity: 0; transform: translateX(0);}
+    100% { opacity: 1; transform: translateX(0);}
+}
+
+
+.nature {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1820px;
+    margin: 0px auto 100px;
+
+    
+}
+
+.nature-img-container{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between ;
+
+    margin-top: 40px;
+
+    position: relative;
+    
+}
+
+.nature-img-container-1{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between ;
+    margin-right: 70px;
+
+    position: relative;
+}
+
+.nature-img-container-2{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between ;
+}
+
+
+
+.nature-1{
+    max-width: 400px;
+   
+    width: 100%;
+    height: 100%;
+
+    margin-right: 50px;
+    
+    border-radius: 20px;
+    position: relative;
+
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
+}
+
+.nature-1-1{
+    transform: perspective(600px) rotateY(0deg);
+    backface-visibility: hidden;
+    transition: transform .4s linear;
+}
+
+.nature-1-2{
+    position: absolute;
+    top: 0 ;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform .4s linear;
+}
+
+.nature-1:hover > .nature-1-1 {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.nature-1:hover > .nature-1-2 {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.nature-2:hover > .nature-1-1 {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.nature-2:hover > .nature-1-2 {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.nature-3:hover > .nature-1-1 {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.nature-3:hover > .nature-1-2 {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.nature-4:hover > .nature-1-1 {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.nature-4:hover > .nature-1-2 {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.nature-2{
+    max-width: 400px;
+    
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 20px;
+
+    margin-top: 150px;
+    position: relative;
+    
+    /* transition: transform 1s ease-in-out; */
+    cursor: pointer;
+}
+
+.nature-3{
+    max-width: 400px;
+    
+    width: 100%;
+    height: 100%;
+
+    margin-right: 50px;
+    
+    border-radius: 20px;
+
+    margin-top: 250px;
+    position: relative;
+
+    /* transition: transform 1s ease-in-out; */
+    cursor: pointer;
+}
+
+.nature-4{
+    max-width: 400px;
+    
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 20px;
+    position: relative;
+
+    /* transition: transform 1s ease-in-out; */
+    cursor: pointer;
+}
+
+.nature-h {
+    position: absolute;
+    bottom: -15px;
+}
+
+.nature-p {
+    max-width: 48%;
+
+    position: absolute;
+    margin-left: 26.5%; 
+}
+
+.nature-p-mob{
+    display: none;
+}
+
+.nature-bg {
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    background-color: #0D0031;
+    z-index: 20;
+    position: absolute;
+}
+
+.natureBg-overlow {
+    display: block;
+}
+
+@media (max-width: 1850px ) {
+
+    .nature {
+        margin-bottom: 170px;
+    }
+
+    .nature-h {
+        bottom: -7%;
+    }
+
+    .nature-img-container-1{
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 1800px ) {
+
+    .nature-2 {
+        margin-top: 120px;
+    }
+
+    .nature-3 {
+        margin-top: 120px;
+    }
+
+    .nature-4 {
+        margin-top: 120px;
+    }
+
+    .nature-p {
+        max-width: 100%;
+       
+        margin-left: 26%; 
+        
+    }
+
+    .nature-h {
+        bottom: -20%;
+    }
+
+    
+}
+
+@media (max-width: 1750px ) {
+
+    .nature {
+        margin-bottom: 200px;
+    }
+
+    .nature-h {
+        bottom: -20%;
+    }
+    
+}
+
+@media (max-width: 1600px ) {
+
+    .nature-h {
+        bottom: -20%;
+    }
+    
+}
+
+@media (max-width: 1450px ) {
+
+    .nature-h {
+        bottom: -25%;
+    }
+    
+}
+
+@media (max-width: 1300px ) {
+
+    .nature-h {
+        bottom: -25%;
+    }
+    
+}
+
+@media (max-width: 1150px ) {
+
+    .nature-h {
+        bottom: -30%;
+    }   
+} 
+
+@media (max-width: 1000px ) {
+
+    .nature {
+        margin-bottom: 100px;
+    }
+
+    .nature-img-container {
+        flex-direction: column;
+    }
+
+    .nature-img-container-1{
+        margin-bottom: 40px;
+
+    }
+
+    .nature-img-container-2{
+        margin-top : 40px;
+        margin-bottom: 120px;
+    }
+
+    .nature-br {
+        display: none;
+    }
+
+    .nature-p {
+        display: none;
+    }
+
+    .nature-1 {
+        animation: natureAni 1s forwards;
+    }
+
+    .nature-2 {
+        margin-top: 100px;
+        position: absolute;
+        right: 0;
+        animation: natureAni 1s forwards;
+    }
+
+    .nature-3 {
+        margin-top: 0px;
+        animation: natureAni 1s forwards;
+    }
+
+    .nature-4 {
+        margin-top: 100px;
+        position: absolute;
+        right: 0;
+        animation: natureAni 1s forwards;
+    }
+
+    .nature-h {
+        position: relative;
+
+        text-wrap: balance;
+      
+        bottom: 0%;
+    
+    }
+
+    .nature-p-mob{
+        display: block;
+    }
+
+    
+} 
+
+@media (max-width: 800px ) {
+
+    .nature-z1 {
+        z-index: 2;
+        
+        animation: natureAn 1s forwards;
+    }
+    
+    /* .nature-z2 {    
+        z-index: 2;
+        
+        animation: natureAn 1s forwards;
+    } */
+    
+    .nature-z3 {
+        z-index: 2;
+        
+        animation: natureAn 1s forwards;
+    }
+    
+    /* .nature-z4 {    
+        z-index: 2;
+        
+        animation: natureAn 1s forwards;
+    } */
+}
+
+@media (max-width: 665px ) {
+
+    .nature-img-container-1{
+        margin-bottom: 140px;
+    }
+
+}
+
+@media (max-width: 570px ) {
+
+    .nature-img-container-1{
+        margin-bottom: 60px;
+    }
+    
+    .nature-1 {
+        max-width: 290px;
+    }
+
+    .nature-2 {
+        max-width: 290px;
+    }
+
+    .nature-3 {
+        max-width: 290px;
+    }
+
+    .nature-4 {
+        max-width: 290px;
+    }
+}
+
+
+@media (max-width: 450px ) {
+
+    .nature-img-container-1{
+        margin-bottom: 120px;
+    }
+
+    .nature-img-container-2 {
+        margin-top: 30px;
+    }
+
+    .nature-1 {
+        margin-right: 30px;
+    }
+
+    .nature-2 {
+        padding-left: 30px;
+        max-width: 320px;
+    }
+
+    .nature-3 {
+        margin-right: 30px;
+    }
+
+    .nature-4 {
+        padding-left: 30px;
+        max-width: 320px;
+    }
+
+    
+}
+
+

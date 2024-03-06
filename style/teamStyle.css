@@ -1,0 +1,152 @@
+.team {
+    max-width: 1840px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column; 
+
+    margin: 0px auto 100px;
+
+    
+}
+
+.team-h {
+    margin-right: 40px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-container-1 {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-right: 0px;
+}
+
+.card-container-2 {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card {
+    max-width: 410px;
+    height: 510px;
+    width: 100%;
+
+    padding: 30px;
+    border-radius: 20px;
+    margin-right: 30px;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background-image: url(/PrimeVilla/image/blaze1.png);
+    background-position: 50% 0%;
+}
+
+.card-container-2 .card:first-child{
+    background-image: url(/PrimeVilla/image/pol1.png);
+    background-position: 40% 20%;
+}  
+
+.card-container-2 .card:last-child{
+    margin-right: 0px;
+    background-image: url(/PrimeVilla/image/taylor1.png);
+}   
+
+.card:nth-child(2) {
+    background-image: url(/PrimeVilla/image/aria1.png);
+    background-position: 50% 30%;
+}
+
+.card:nth-child(3) {
+    background-image: url(/PrimeVilla/image/taylor1.png);
+    background-position: 20% 0%;
+}
+
+.card:nth-child(4) {
+    background-image: url(/PrimeVilla/image/pol1.png);
+    background-position: 40% 20%;
+}
+
+@media (max-width: 1680px ) {
+
+    .team {
+        display: block;
+    }
+
+    .team-h {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 1430px ) {
+
+    .card-container{
+        justify-content: flex-start;
+    }
+
+    
+}
+
+@media (max-width: 1150px ) {
+
+    .card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 950px ) {
+
+    .card-container{
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .card:last-child{
+        margin-right: 30px;
+    } 
+
+    .card-container-1 {
+        margin-bottom: 30px;
+    }
+
+    .card-container-1 .card:last-child{
+        margin-right: 0px;
+    }  
+
+}
+
+
+@media (max-width: 570px ) {
+
+    .card {
+        height: 350px;
+    }   
+
+    .card-container-1 {
+        margin-bottom: 10px;
+    }
+
+    .card-container-1 .card:first-child{
+        margin-right: 10px;
+    }
+
+    .card-container-2 .card:first-child{
+        margin-right: 10px;
+    }
+
+    .card-container-2 .card:last-child{
+        margin-right: 10px;
+        background-position: 30% 0% ;
+    }
+}

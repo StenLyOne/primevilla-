@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "aos": "^2.3.4",
+    "hammerjs": "^2.0.8"
+  }
+}
